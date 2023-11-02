@@ -1,4 +1,4 @@
-name: Docker
+name: Build BaseImage
 
 # This workflow uses actions that are not certified by GitHub.
 # They are provided by a third-party and are governed by
@@ -20,7 +20,7 @@ env:
   # Use docker.io for Docker Hub if empty
   REGISTRY: ghcr.io
   # github.repository as <account>/<repo>
-  IMAGE_NAME: base_azurecloudshell
+  IMAGE_NAME: tfsugjp/base_cloudshell
 
 
 jobs:
